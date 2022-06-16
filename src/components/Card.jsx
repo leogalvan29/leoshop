@@ -4,7 +4,7 @@ import styles from '../css/Card.module.css'
 const Card = () => {
   return (
     <div className={styles.bloqueCards}>
-        <div className="card">
+        <div className={styles.card}>
         <h1 className={styles.titulo}>Card</h1>
         </div>
         
