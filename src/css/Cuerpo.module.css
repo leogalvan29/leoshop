@@ -1,0 +1,9 @@
+.contenedorCards{
+    width: 90%;
+    padding-top: 100px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

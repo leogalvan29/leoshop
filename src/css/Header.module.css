@@ -1,0 +1,144 @@
+.header{
+    width: 100%;
+    height: 70px;
+    background:#000;
+}
+
+.contenido_navegacion{
+    width: 90%;
+    margin: 0px auto;
+    background-color: #000;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo {
+    max-width: 50%;
+    width: 50%;
+
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.navMovil{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.navMovil img{
+     width: 24px;
+     height: 24px;
+     cursor: pointer;
+}
+
+@media screen and (min-width:768px) {
+    .navMovil{
+        display: none;
+    }
+}
+
+.nav {
+    display: none;
+}
+@media screen and (min-width:768px){
+    .nav{
+        width: 50%;
+        max-width: 50%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+
+
+.nav ul {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navFly {
+    position: absolute;
+    top:70px;
+    left: -50%;
+    width: 40%;
+    height: 250px;
+    background-color: #000;
+
+
+}
+
+
+
+.navFly ul {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+}
+
+.navFly ul li {
+    margin: 10px 0px;
+}
+
+.navFly ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navFlyOpen{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 40%;
+    height: 250px;
+    background-color: black;
+    
+
+}
+
+.navFlyOpen ul {
+    margin: 10px 0px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.navFlyOpen ul li {
+    margin: 5px 0px;
+}
+
+.navFlyOpen ul li a {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
